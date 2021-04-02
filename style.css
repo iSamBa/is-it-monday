@@ -18,14 +18,15 @@ body {
   flex-direction: column;
   align-items: center;
   height: max(20vh, 200px);
-  width: max(50vw, 500px);
+  max-width: max(50vw, 700px);
   border-radius: 20px;
   background: #eeeeee;
-  padding: 20px;
+  padding: 20px 50px;
+  margin-inline: clamp(20px, 1vw, 3vw);
 }
 .container > h1 {
   font-family: "Lobster", cursive;
-  font-size: 3em;
+  font-size: clamp(2.5em, 2.6em, 3em);
   margin-bottom: 30px;
   color: #393e46;
   text-shadow: 1px 1px #00adb5;
