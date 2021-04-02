@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-content: center;
+  background-color: #222831;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max(20vh, 200px);
+  width: max(50vw, 500px);
+  border-radius: 20px;
+  background: #eeeeee;
+  padding: 20px;
+}
+.container > h1 {
+  font-family: "Lobster", cursive;
+  font-size: 3em;
+  margin-bottom: 30px;
+  color: #393e46;
+  text-shadow: 1px 1px #00adb5;
+}
+
+.container > h3 {
+  font-style: italic;
+}
